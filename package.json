@@ -1,0 +1,22 @@
+{
+  "name": "govid-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Govid - extracts downloadable video/image URLs from TikTok, Facebook, Instagram, and Pinterest links.",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
